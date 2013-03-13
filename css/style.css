@@ -122,11 +122,19 @@ a:active {
         font-size: 9px;
         font-weight: bold;
     }
+
+    .nav-tabs > li, .nav-pills > li {
+        letter-spacing: 0px;
+    }
 }
 
 @media (max-width: 480px) and (max-width: 568px) {
     .nav-pills {
         font-size: 9px;
         font-weight: bold;
+    }
+
+    .nav-tabs > li, .nav-pills > li {
+        letter-spacing: 0px;
     }
 }
