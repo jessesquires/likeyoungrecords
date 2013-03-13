@@ -41,6 +41,7 @@ img.banner {
     display: inline-block;
     *display: inline; /* ie7 fix */
 	zoom: 1; /* hasLayout ie7 trigger */
+    letter-spacing: 1px;
 }
 
 .nav-tabs {
@@ -91,12 +92,24 @@ a:active {
     color: #666666;
 }
 
+#about a {
+    color: #ff5054;
+}
+
+#about a:hover {
+    color: #bf3b3d;
+}
+
 #contact a {
 	color: #ff5054;
 }
 
 #contact a:hover {
 	color: #bf3b3d;
+}
+
+#contact p {
+    margin-bottom: 0px;
 }
 
 #releases li {

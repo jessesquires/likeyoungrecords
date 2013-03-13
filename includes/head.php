@@ -1,8 +1,8 @@
   	
   	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="keywords" content="like young, record label, records, tapes, vinyl, indie records, independent record label, nosie, ambient, minimal, indie, pop">
+    <meta name="description" content="NOSIE / AMBIENT / MINIMAL / INDIE / POP GALORE!">
     <meta name="author" content="Like Young Records">
 
     <!-- styles -->
