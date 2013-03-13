@@ -2,8 +2,9 @@
       <div id="footer" class="row center">
         <div class="span9 center">
           <hr>
-            <small><p class="muted text-center">&copy; 2013 Like Young Records</p></small>
-            <small><p class="muted text-center">Designed by <a href="http://bit.ly/0x29A" target="_blank">Hexed Bits</a></p></small>
+            <small class="muted text-center">&copy; 2013 Like Young Records</small>
+            <br />
+            <small class="muted text-center">Designed by <a href="http://bit.ly/0x29A" target="_blank">Hexed Bits</a></small>
         </div>
       </div>
       
