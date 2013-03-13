@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^releases/(\d+)*$ ./releases.php?id=$1
+RewriteRule ^contact/(\d+)*$ ./contact.php?id=$1

@@ -1,0 +1,119 @@
+/* BLUE : #4dadf7 */
+/* RED : #ff5054 */
+
+body {
+	background-color: #ffffff;
+}
+
+body p, h3 {
+	text-align: left;
+	margin: 5px 25px 10px 25px;
+}
+
+#fb-container {
+	margin: 25px 25px 0px 25px;
+}
+
+#footer {
+	margin-bottom: 10px;
+}
+
+.center { 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+img.banner {
+	margin-top: 10px;
+	width: 96%;
+	height: auto;
+}
+
+.nav-tabs > li, .nav-pills > li {
+	float: none;
+    display: inline-block;
+    *display: inline; /* ie7 fix */
+	zoom: 1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs {
+	text-align: center;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: #4dadf7;
+    color: #ffffff;
+}
+
+.nav-pills {
+	font-size: 22px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+
+a {
+    color: #4dadf7;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+a:visited {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+    color: #3b86bf;
+}
+
+a:active {
+    text-decoration:underline;
+}
+
+#footer a, a:hover {
+    color: #666666;
+}
+
+#contact a {
+	color: #ff5054;
+}
+
+#contact a:hover {
+	color: #bf3b3d;
+}
+
+#releases li {
+	text-align: left;
+	margin: 5px 25px 10px 25px;
+}
+
+@media (max-width: 320px) {
+    .nav-pills {
+        font-size: 9px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 480px) and (max-width: 568px) {
+    .nav-pills {
+        font-size: 9px;
+        font-weight: bold;
+    }
+}
