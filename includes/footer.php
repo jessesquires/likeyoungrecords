@@ -5,6 +5,8 @@
             <small class="muted text-center">&copy; 2013 Like Young Records</small>
             <br />
             <small class="muted text-center">Designed by <a href="http://bit.ly/0x29A" target="_blank">Hexed Bits</a></small>
+            <br/>
+            <img id="cross" src="img/cross.png" alt="cross"/>
         </div>
       </div>
       

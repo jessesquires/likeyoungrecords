@@ -30,10 +30,16 @@ body p, h3 {
     text-align: left;
 }
 
-img.banner {
+#banner {
 	margin-top: 10px;
 	width: 96%;
 	height: auto;
+}
+
+#cross {
+    width: 25px;
+    height: auto;
+    margin-top: 10px;
 }
 
 .nav-tabs > li, .nav-pills > li {
