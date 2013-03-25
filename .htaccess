@@ -1,10 +1,7 @@
 Options +FollowSymLinks
 RewriteEngine On
 
-RewriteRule ^news/?$ index.php [NC,L]
-
 RewriteRule ^store/?$ http://likexyoung.bigcartel.com [NC,L]
-
 
 
 # Not used
