@@ -3,10 +3,11 @@
 <html lang="en">
   <head>
     <title>LYR | Contact</title>
-    <?php include('includes/head.php'); ?>
+    <?php include('../includes/head.php'); ?>
   </head>
   <body>
-    <?php include('includes/header.php'); ?>
+    <?php include('../includes/banner.php'); ?>
+    <?php include('../includes/menu.php'); ?>
 
     <div id="contact">
       <h3>Email</h3>
@@ -20,6 +21,6 @@
       <p><a href="http://www.last.fm/user/LYRecords" target="_blank">LYRecords</a></p><br />
     </div>
     
-    <?php include('includes/footer.php'); ?>
+    <?php include('../includes/footer.php'); ?>
   </body>
 </html>

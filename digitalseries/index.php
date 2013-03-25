@@ -3,11 +3,12 @@
 <html lang="en">
   <head>
     <title>LYR | Digital Series</title>
-    <?php include('includes/head.php'); ?>
+    <?php include('../includes/head.php'); ?>
   </head>
   <body>
-    <?php include('includes/header.php'); ?>
-
+    <?php include('../includes/banner.php'); ?>
+    <?php include('../includes/menu.php'); ?>
+    
     <div id="releases">
 		<h3>Digital Series</h3>
 		<ul>
@@ -18,6 +19,6 @@
 		</ul>
     </div>
 
-    <?php include('includes/footer.php'); ?>
+    <?php include('../includes/footer.php'); ?>
   </body>
 </html>

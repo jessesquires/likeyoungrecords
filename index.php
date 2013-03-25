@@ -6,8 +6,9 @@
     <?php include('includes/head.php'); ?>
   </head>
   <body>
-    <?php include('includes/header.php'); ?>
-
+    <?php include('includes/banner.php'); ?>
+    <?php include('includes/menu.php'); ?>
+    
     <div id="about">
       <p>Like Young Records is a small, independent record label that is based in <a href="http://maps.google.com/maps/place?q=New+Albany+IN" target="_blank">New Albany, IN</a> (seriously, <em>that</em> place) and is run by <a href="http://www.facebook.com/jordan.reidinger" target="_blank">Jordan Reidinger</a>. Like Young primarily releases cassettes full of noise / ambient / minimal / indie / pop galore! We are dedicated to spreading good music and helping bands as much as possible. Fuck money. Mind the tape.</p>
       <p class="text-center">Tonight, we will live like young.</p>
