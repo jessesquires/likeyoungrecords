@@ -32,14 +32,6 @@
 			<li>LY019: Downstaaiirs - Weeping / Creeping</li>
 			<li>LY020: Trigger Men - Trigger Men</li>
 		</ul>
-
-		<h3>Digital Series</h3>
-		<ul>
-			<li>LYd001: Like Young - Fame</li>
-			<li>LYd002: Perfume - Perfume</li>
-			<li>LYd003: Sexes - Humans</li>
-			<li>LYd004: Sexes - Iv</li>
-		</ul>
     </div>
 
 	<!--

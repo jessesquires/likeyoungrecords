@@ -66,6 +66,18 @@ body p, h3 {
 	margin-bottom: 10px;
 }
 
+.dropdown-menu > li, .dropdown-menu li > a {
+    font-size: 16px;
+    text-align: left;
+    background-color: #ffffff;
+    color: #4dadf7;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #4dadf7;
+    color: #ffffff;
+}
+
 h3 {
     font-size: 18px;
     font-weight: bold;
@@ -98,20 +110,16 @@ a:active {
     color: #666666;
 }
 
-#about a {
+#about a, 
+#contact a, 
+#releases a {
     color: #ff5054;
 }
 
-#about a:hover {
+#about a:hover, 
+#contact a:hover, 
+#releases a:hover {
     color: #bf3b3d;
-}
-
-#contact a {
-	color: #ff5054;
-}
-
-#contact a:hover {
-	color: #bf3b3d;
 }
 
 #contact p {
