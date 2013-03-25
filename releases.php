@@ -33,17 +33,7 @@
 			<li>LY020: Trigger Men - Trigger Men</li>
 		</ul>
     </div>
-
-	<!--
-	<a data-toggle="lightbox" href="#myLightBox"><img src="/img/hb-small.png" class="img-polaroid" alt=""/></a>
-	<div id="myLightBox" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="lightbox-content">
-			<img src="/img/hb-large.png">
-		<div class="lightbox-caption"><p>Your caption goes here.</p></div>
-		</div>
-	</div>
-	-->
-
+    
     <?php include('includes/footer.php'); ?>
   </body>
 </html>

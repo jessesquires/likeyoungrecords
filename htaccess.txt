@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^releases/?$ releases.php [NC,L]
+RewriteRule ^digitalseries/?$ digitalseries.php [NC,L]
+RewriteRule ^contact/?$ contact.php [NC,L]
+RewriteRule ^store/?$ http://likexyoung.bigcartel.com [NC,L]
