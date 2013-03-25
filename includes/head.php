@@ -9,6 +9,7 @@
     <link href="<?php if ($thisPage != "news") echo "../"; ?>bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="<?php if ($thisPage != "news") echo "../"; ?>bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
     <link href="<?php if ($thisPage != "news") echo "../"; ?>css/style.css" rel="stylesheet" type="text/css">
+    <link href="<?php if ($thisPage != "news") echo "../"; ?>bootstrap-photo-grid/bootstrap-photo-grid.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>

@@ -113,13 +113,15 @@ a:active {
 
 #about a, 
 #contact a, 
-#releases a {
+#releases a,
+#digitalseries a {
     color: #ff5054;
 }
 
 #about a:hover, 
 #contact a:hover, 
-#releases a:hover {
+#releases a:hover,
+#digitalseries a:hover {
     color: #bf3b3d;
 }
 
@@ -127,7 +129,8 @@ a:active {
     margin-bottom: 0px;
 }
 
-#releases li {
+#releases li,
+#digitalseries li {
 	text-align: left;
 	margin: 5px 25px 10px 25px;
 }

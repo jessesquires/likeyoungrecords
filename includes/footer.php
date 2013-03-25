@@ -7,8 +7,8 @@
             <small class="muted text-center">Designed by <a href="http://bit.ly/0x29A" target="_blank">Hexed Bits</a></small>
             <br/>
             <img id="cross" src="<?php if ($thisPage != "news") echo "../"; ?>img/cross.png" alt="cross"/>
-        </div>
-      </div>
+        </div> <!-- span -->
+      </div> <!-- footer -->
       
     </div> <!-- span -->
   </div> <!-- row -->
@@ -18,6 +18,7 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="<?php if ($thisPage != "news") echo "../"; ?>js/jquery-1.9.1.min.js"><\/script>')</script>
   <script type="text/javascript" src="<?php if ($thisPage != "news") echo "../"; ?>bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?php if ($thisPage != "news") echo "../"; ?>bootstrap-photo-grid/bootstrap-photo-grid.js"></script>
 
   <!-- google analytics BEGIN -->
   <script type="text/javascript">
@@ -28,3 +29,4 @@
     })();
   </script>
   <!-- google analytics END -->
+  
