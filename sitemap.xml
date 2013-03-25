@@ -11,15 +11,15 @@
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.likeyoungrecords.com/releases.php</loc>
+  <loc>http://www.likeyoungrecords.com/releases/</loc>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.likeyoungrecords.com/digitalseries.php</loc>
+  <loc>http://www.likeyoungrecords.com/digitalseries/</loc>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://www.likeyoungrecords.com/contact.php</loc>
+  <loc>http://www.likeyoungrecords.com/contact/</loc>
   <changefreq>weekly</changefreq>
 </url>
 </urlset>
