@@ -1,5 +1,5 @@
 
-<div class="container-fluid">
+<div class="container">
     <div class="row center">
         <div class="span9 center">
             <a href="/">
