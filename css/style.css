@@ -172,9 +172,3 @@ a:active {
         padding-left: 0px;
     }
 }
-
-@media (max-width: 1024px) {
-    #releases {
-        padding-left: 0px;
-    }
-}
