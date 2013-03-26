@@ -9,7 +9,7 @@ img.fullres {
 	height: 640px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) and (max-width: 568px) {
 	img.thumbnail {
 		width: 200px;
 		height: 200px;
@@ -18,6 +18,5 @@ img.fullres {
     	margin-right: auto; 
     	margin-bottom: 15px;
     	display: block;
-
 	}
 }
