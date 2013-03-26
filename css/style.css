@@ -152,6 +152,12 @@ a:active {
     }
 }
 
+@media (max-width: 550px) {
+    .nav-pills {
+        font-size: 18px;
+    }
+}
+
 @media (max-width: 480px) and (max-width: 568px) {
     .nav-pills {
         font-size: 9px;

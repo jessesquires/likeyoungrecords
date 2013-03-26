@@ -9,7 +9,7 @@ img.fullres {
 	height: 640px;
 }
 
-@media (max-width: 480px) and (max-width: 568px) {
+@media (max-width: 767px) {
 	img.thumbnail {
 		width: 200px;
 		height: 200px;
