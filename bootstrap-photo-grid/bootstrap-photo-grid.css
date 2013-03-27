@@ -29,6 +29,10 @@ img.fullres {
 		max-width: 400px;
 		max-height: 400px;
 	}
+
+	.modal-body {
+		max-height: 460px;
+	}
 }
 
 @media (max-width: 480px) and (max-width: 568px){

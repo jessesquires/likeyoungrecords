@@ -9,19 +9,20 @@
     <?php include('../includes/banner.php'); ?>
     <?php include('../includes/menu.php'); ?>
 
+
     <div id="releases" class="row">
     	<div class="span9">
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		
 		</div> <!-- span -->
@@ -30,34 +31,16 @@
     <div id="releases" class="row">
     	<div class="span9">
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
-    		</div>
-    		
-		</div> <!-- span -->
-    </div> <!-- releases -->
-
-    <div id="releases" class="row">
-    	<div class="span9">
-    		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
-    		</div>
-    		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
-    		</div>
-    		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
-    		</div>
-    		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		
 		</div> <!-- span -->
@@ -66,16 +49,34 @@
     <div id="releases" class="row">
     	<div class="span9">
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		<div class="span2">
-    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-1-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    		</div>
+    		
+		</div> <!-- span -->
+    </div> <!-- releases -->
+
+    <div id="releases" class="row">
+    	<div class="span9">
+    		<div class="span2">
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    		</div>
+    		<div class="span2">
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    		</div>
+    		<div class="span2">
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
+    		</div>
+    		<div class="span2">
+    			<a data-toggle="modal" href="#one"><img src="../img/releases/lyr-01-thumb.png" class="img-polaroid thumbnail" alt=""/></a>
     		</div>
     		
 		</div> <!-- span -->
@@ -89,7 +90,7 @@
             <h3 id="myModalLabel" class="text-left">Like Young - Ab Ovo / Sonorous</h3>
         </div>
         <div class="modal-body">
-            <img src="../img/releases/lyr-1-full.png" class="img-polaroid fullres" alt=""/>
+            <img src="../img/releases/lyr-01-full.png" class="img-polaroid fullres" alt=""/>
             <h5 class="text-center">25 Translucent Red</h5>
         </div>
         <div class="modal-footer">
@@ -97,8 +98,11 @@
         </div>
     </div>
 
-
-
     <?php include('../includes/footer.php'); ?>
+
+    <script type="text/javascript">
+        foo();
+    </script>
+
   </body>
 </html>
