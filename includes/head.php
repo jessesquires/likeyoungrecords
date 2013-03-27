@@ -6,10 +6,10 @@
     <meta name="author" content="Like Young Records">
 
     <!-- styles -->
-    <link href="<?php if ($thisPage != "news") echo "../"; ?>bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="<?php if ($thisPage != "news") echo "../"; ?>bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
-    <link href="<?php if ($thisPage != "news") echo "../"; ?>css/style.css" rel="stylesheet" type="text/css">
-    <link href="<?php if ($thisPage != "news") echo "../"; ?>bootstrap-photo-grid/bootstrap-photo-grid.css" rel="stylesheet" type="text/css">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/bootstrap-photo-grid/bootstrap-photo-grid.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -17,11 +17,11 @@
     <![endif]-->
 
     <!-- fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php if ($thisPage != "news") echo "../"; ?>ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php if ($thisPage != "news") echo "../"; ?>ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php if ($thisPage != "news") echo "../"; ?>ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="<?php if ($thisPage != "news") echo "../"; ?>ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="<?php if ($thisPage != "news") echo "../"; ?>ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/ico/favicon.ico">
 
     <!-- google analytics BEGIN -->
     <script type="text/javascript">
