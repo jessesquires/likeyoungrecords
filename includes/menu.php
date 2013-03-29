@@ -9,7 +9,7 @@
 		      	</ul>
 		    </li>
 			<li <?php if ($thisPage == "contact") echo "class=\"active\""; ?> ><a href="/contact/">CONTACT</a></li>
-			<li><a href="http://likexyoung.bigcartel.com">STORE</a></li>
+			<li><a href="http://store.likeyoungrecords.com">STORE</a></li>
 		</ul> <!-- pills -->
 		</div> <!-- menu -->
 	</div> <!-- row --> 
