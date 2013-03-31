@@ -14,6 +14,8 @@ function render() {
 
 function buildHTML(imageList, csvRecords) {
 	console.log("Building html...");
+	//console.log("Image List = " + JSON.stringify(imageList));
+	//console.log("CSV Records = " + JSON.stringify(csvRecords));
 	var div = $('#releases');
 
 	var rows = imageList.length / MAX_COLS;
@@ -37,7 +39,7 @@ function buildHTML(imageList, csvRecords) {
 }
 
 function appendImageWithInfoToDiv(image, info, div) {
-	console.log("Adding " + info.release + "...");
+	console.log("Adding " + info.release + "\n" + info.artist + ", " + info.album + "(" + image.thumb + ")...");
 	var title = info.release + ": " + info.album;
 
 	$(div).append('<div class="span2">' + 
@@ -48,7 +50,7 @@ function appendImageWithInfoToDiv(image, info, div) {
 }
 
 function appendModalDivWithImageAndInfoToDiv(image, info, div) {
-	console.log("Adding modal for " + info.release + "...");
+	console.log("Adding modal " + info.release + "\n" + info.artist + ", " + info.album + "(" + image.full + ")...");
 	var label = info.release + "-modal";
 	var storeLink = "http://store.likeyoungrecords.com";
 	var title = info.release + ": " + info.album;
