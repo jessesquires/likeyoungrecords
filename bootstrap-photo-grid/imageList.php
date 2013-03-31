@@ -16,6 +16,7 @@ for($i = 0; $i < count($fileList) - 1; $i+=2) {
 						 'thumb' => $fileList[$j]);
 	array_push($images, $imageRecord);
 }
+asort($images);
 
 echo json_encode($images);
 ?>

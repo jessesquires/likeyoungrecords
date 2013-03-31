@@ -13,9 +13,9 @@ function render() {
 }
 
 function buildHTML(imageList, csvRecords) {
-	console.log("Building html...");
-	//console.log("Image List = " + JSON.stringify(imageList));
-	//console.log("CSV Records = " + JSON.stringify(csvRecords));
+	console.log("Building html...\n");
+	console.log("Image List = " + JSON.stringify(imageList) + "\n");
+	console.log("CSV Records = " + JSON.stringify(csvRecords) + "\n");
 	var div = $('#releases');
 
 	var rows = imageList.length / MAX_COLS;
