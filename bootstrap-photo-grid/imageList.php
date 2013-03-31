@@ -19,5 +19,14 @@ for($i = 0; $i < count($fileList) - 1; $i+=2) {
 
 asort($imageList);
 
-echo json_encode($imageList);
+$images = array();
+foreach($imageList as $key=>$val) {
+	$f = $val['full'];
+	$t = $val['thumb']; 
+	//echo "Key = $key, Value = $f : $t <br />";
+
+	array_push($images, $val);
+}
+//echo "<br /><br />";
+echo json_encode($images);
 ?>
