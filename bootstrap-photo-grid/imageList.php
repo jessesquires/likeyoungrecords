@@ -1,17 +1,21 @@
 <?php
-
-$files = array();
-
+$fileList = array();
 $dir = opendir('../img/releases/');
-while ($file = readdir($dir)) 
-{
-	if ($file == '.' || $file == '..' || $file == '.DS_Store') {
+
+while($file = readdir($dir)) {
+	if($file == '.' || $file == '..' || $file == '.DS_Store') {
         continue;
     }
-
-    $files[] = $file;
+    array_push($fileList, $file);
 }
 
-echo json_encode($files);
+$images = array();
+for($i = 0; $i < count($fileList) - 1; $i+=2) {
+	$j = $i + 1;
+	$imageRecord = array('full' => $fileList[$i],
+						 'thumb' => $fileList[$j]);
+	array_push($images, $imageRecord);
+}
 
+echo json_encode($images);
 ?>

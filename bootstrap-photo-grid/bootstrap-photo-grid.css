@@ -9,6 +9,12 @@ img.full {
 	max-height: 390px;
 }
 
+.image-row {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-left: 6px;
+}
+
 .modal-header {
 	padding: 10px;
 }
@@ -47,4 +53,8 @@ img.full {
 	.modal-body {
 		max-height: 300px;
 	}
+
+	.image-row {
+        padding-left: 0px;
+    }
 }

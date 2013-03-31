@@ -18,22 +18,12 @@ body p, h3 {
 	margin-bottom: 10px;
 }
 
-#releases {
-    margin-top: 20px;
-    margin-bottom: 15px;
-    padding-left: 6px;
-}
-
 .center { 
     float: none; 
     margin-left: auto; 
     margin-right: auto; 
     display: block;
     text-align: center;
-}
-
-.left {
-    text-align: left;
 }
 
 #banner {
@@ -135,7 +125,6 @@ a:active {
     margin-bottom: 0px;
 }
 
-#releases li,
 #digitalseries li {
 	text-align: left;
 	margin: 5px 25px 10px 25px;
@@ -166,9 +155,5 @@ a:active {
 
     .nav-tabs > li, .nav-pills > li {
         letter-spacing: 0px;
-    }
-
-    #releases {
-        padding-left: 0px;
     }
 }
