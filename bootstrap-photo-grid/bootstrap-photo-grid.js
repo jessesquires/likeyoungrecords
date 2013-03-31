@@ -31,8 +31,8 @@ function buildHTML(imageList, csvRecords) {
 			if(index < imageList.length) {
 				var img = JSON.parse(JSON.stringify(imageList[index]));
 				var rec = JSON.parse(JSON.stringify(csvRecords[index]));
-				appendImageWithInfoToDiv(img, rec, '#row-' + i);
-				appendModalDivWithImageAndInfoToDiv(img, rec, '#row-' + i);
+				appendImageWithInfoToDiv(img.index, rec, '#row-' + i);
+				appendModalDivWithImageAndInfoToDiv(img.index, rec, '#row-' + i);
 			}
 		}
 	}
