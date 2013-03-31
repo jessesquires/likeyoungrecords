@@ -1,21 +1,24 @@
-img.thumbnail {
+img.thumb {
 	width: auto;
 	height: auto;
 	margin: 2px;
 }
 
-img.fullres {
-	max-width: 500px;
-	max-height: 500px;
-	margin: 2px;
+img.full {
+	max-width: 390px;
+	max-height: 390px;
 }
 
-.modal-body {
-	max-height: 560px;
+.modal-header {
+	padding: 10px;
+}
+
+.modal-footer {
+	padding: 10px;
 }
 
 @media (max-width: 767px) {
-	img.thumbnail {
+	img.thumb {
 		width: 200px;
 		height: 200px;
 		float: none; 
@@ -25,23 +28,23 @@ img.fullres {
     	display: block;
 	}
 
-	img.fullres {
-		max-width: 400px;
-		max-height: 400px;
+	img.full {
+		max-width: 300px;
+		max-height: 300px;
 	}
 
 	.modal-body {
-		max-height: 460px;
+		max-height: 400px;
 	}
 }
 
 @media (max-width: 480px) and (max-width: 568px){
-	img.fullres {
-		max-width: 260px;
-		max-height: 260px;
+	img.full {
+		max-width: 240px;
+		max-height: 240px;
 	}
 
 	.modal-body {
-		max-height: 320px;
+		max-height: 300px;
 	}
 }
