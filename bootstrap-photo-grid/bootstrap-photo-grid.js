@@ -2,21 +2,20 @@ var PATH = "../img/releases/";
 var MAX_COLS = 4;
 
 function render() {
-	// console.log("Getting image list...");
-	// $.getJSON('/bootstrap-photo-grid/imageList.php', function(imageData) {
-	// });
+	console.log("Getting image count...");
+	$.get('/bootstrap-photo-grid/imageCount.php', function(count) {
 
-	var imageData = buildImageJSON();
+		var imageData = getImageList(count);
 
-	console.log("Getting CSV data...");
-	$.getJSON('/bootstrap-photo-grid/csvData.php', function(csvData) {
-		buildHTML(imageData, csvData);
+		console.log("Getting CSV data...");
+		$.getJSON('/bootstrap-photo-grid/csvData.php', function(csvData) {
+			buildHTML(imageData, csvData);
+		});
 	});
 }
 
-function buildImageJSON() {
-	console.log("Building image json...");
-	var total = 21;
+function getImageList(total) {
+	console.log("Building json for " + total + " images...");
 	var prefix = "lyr";
 	var sep = "-";
 	var ext = ".jpg";
@@ -31,7 +30,7 @@ function buildImageJSON() {
 		var full = base + "full" + ext;
 		images[i] = {"thumb" : thumb , "full" : full};
 	}
-	
+
 	return images;
 }
 
@@ -62,7 +61,7 @@ function buildHTML(imageList, csvRecords) {
 }
 
 function appendImageWithInfoToDiv(image, info, div) {
-	console.log("Adding " + info.release + "\n" + info.artist + ", " + info.album + "(" + image.thumb + ")...");
+	console.log("Adding " + info.release + "\n" + info.artist + ", " + info.album + "(" + image.thumb + ")");
 	var title = info.release + ": " + info.album;
 
 	$(div).append('<div class="span2">' + 
@@ -73,7 +72,7 @@ function appendImageWithInfoToDiv(image, info, div) {
 }
 
 function appendModalDivWithImageAndInfoToDiv(image, info, div) {
-	console.log("Adding modal " + info.release + "\n" + info.artist + ", " + info.album + "(" + image.full + ")...");
+	console.log("Adding modal " + info.release + "\n" + info.artist + ", " + info.album + "(" + image.full + ")");
 	var label = info.release + "-modal";
 	var storeLink = "http://store.likeyoungrecords.com";
 	var title = info.release + ": " + info.album;

@@ -9,6 +9,8 @@ while($file = readdir($dir)) {
     array_push($fileList, $file);
 }
 
+// warning, fileList NOT deterministic
+
 $imageList = array();
 for($i = 0; $i < count($fileList) - 1; $i+=2) {
 	$j = $i + 1;
