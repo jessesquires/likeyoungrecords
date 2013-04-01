@@ -10,6 +10,7 @@ function render() {
 		console.log("Getting CSV data...");
 		$.getJSON('/bootstrap-photo-grid/csvData.php', function(csvData) {
 			buildHTML(imageData, csvData);
+			fadeInGrid(0, csvData);
 		});
 	});
 }
@@ -32,6 +33,26 @@ function getImageList(total) {
 	}
 
 	return images;
+}
+
+function fadeInGrid(n, csvRecords) {
+	console.log("Begin fade in...");
+
+	if(n >= csvRecords.length) {
+		console.log("Fade Done! Yay for recursion!");
+		return;
+	}
+	else {
+		var rec = JSON.parse(JSON.stringify(csvRecords[n]));
+		var imgSpan = $('#' + rec.release + '-span');
+		
+		setTimeout(function() {	
+			console.log("FADE " + rec.release);
+			imgSpan.fadeIn('slow', function() {
+				fadeInGrid(n+1, csvRecords);
+			});	
+		}, 0);
+	}
 }
 
 function buildHTML(imageList, csvRecords) {
@@ -64,7 +85,7 @@ function appendImageWithInfoToDiv(image, info, div) {
 	console.log("Adding " + info.release + "\n" + info.artist + ", " + info.album + "(" + image.thumb + ")");
 	var title = info.release + ": " + info.album;
 
-	$(div).append('<div class="span2">' + 
+	$(div).append('<div id="' + info.release + '-span" class="span2 hide">' + 
 				  	'<a data-toggle="modal" href="#' + info.release + '">' +
 				  		'<img src="' + PATH + image.thumb + '" class="img-polaroid thumb" alt="' + title + '" title="' + title + '"/>' + 
 				  	'</a>' +
