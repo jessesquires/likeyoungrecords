@@ -2,14 +2,37 @@ var PATH = "../img/releases/";
 var MAX_COLS = 4;
 
 function render() {
-	console.log("Getting image list...");
-	$.getJSON('/bootstrap-photo-grid/imageList.php', function(imageData) {
-		
-		console.log("Getting CSV data...");
-		$.getJSON('/bootstrap-photo-grid/csvData.php', function(csvData) {
-			buildHTML(imageData, csvData);
-		});
+	// console.log("Getting image list...");
+	// $.getJSON('/bootstrap-photo-grid/imageList.php', function(imageData) {
+	// });
+
+	var imageData = buildImageJSON();
+
+	console.log("Getting CSV data...");
+	$.getJSON('/bootstrap-photo-grid/csvData.php', function(csvData) {
+		buildHTML(imageData, csvData);
 	});
+}
+
+function buildImageJSON() {
+	console.log("Building image json...");
+	var total = 21;
+	var prefix = "lyr";
+	var sep = "-";
+	var ext = ".jpg";
+
+	var images = [];
+
+	for(var i = 0; i < total; i++) {
+		var zero = (i < 9) ? "0" : "";
+
+		var base = prefix + sep + zero + (i+1) + sep;
+		var thumb = base + "thumb" + ext;
+		var full = base + "full" + ext;
+		images[i] = {"thumb" : thumb , "full" : full};
+	}
+	
+	return images;
 }
 
 function buildHTML(imageList, csvRecords) {
