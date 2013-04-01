@@ -6,7 +6,7 @@
             <br />
             <small class="muted text-center">Designed by <a href="http://bit.ly/0x29A" target="_blank">Hexed Bits</a></small>
             <br/>
-            <img id="cross" src="/img/cross.png" alt="cross"/>
+            <img id="cross" src="/img/cross.png" alt="0x29A" title="Hail 1010011010"/>
         </div> <!-- span -->
       </div> <!-- footer -->
       

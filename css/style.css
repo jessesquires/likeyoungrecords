@@ -32,6 +32,10 @@ body p, h3 {
 	height: auto;
 }
 
+#banner:hover {
+    border-color: #ff5054;
+}
+
 #cross {
     width: 25px;
     height: auto;

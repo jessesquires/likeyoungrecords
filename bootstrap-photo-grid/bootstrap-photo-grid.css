@@ -9,6 +9,10 @@ img.full {
 	max-height: 390px;
 }
 
+img.thumb:hover {
+	border-color: #ff5054;
+}
+
 .image-row {
     margin-top: 20px;
     margin-bottom: 15px;
