@@ -59,6 +59,8 @@ img.thumb:hover {
 	}
 
 	.image-row {
+		margin-top: 0px;
+		margin-bottom: 0px;
         padding-left: 0px;
     }
 }

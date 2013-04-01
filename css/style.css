@@ -160,4 +160,8 @@ a:active {
     .nav-tabs > li, .nav-pills > li {
         letter-spacing: 0px;
     }
+
+    #releases {
+        margin-top: 10px;
+    }
 }
