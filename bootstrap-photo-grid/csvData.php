@@ -9,7 +9,9 @@ if(($handle = $file) !== FALSE) {
         				'artist' => $data[1],
         				'album' => $data[2],
         				'details' => $data[3],
-        				'url' => $data[4]);
+                        'thumb' => $data[4],
+                        'full' => $data[5],
+                        'url' => $data[6]);
 
         array_push($csvRecords, $record);
     }
