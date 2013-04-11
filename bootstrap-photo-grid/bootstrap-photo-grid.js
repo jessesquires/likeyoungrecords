@@ -4,6 +4,7 @@ var MAX_COLS = 4;
 function render() {
 	console.log("Reading CSV data...");
 	$.getJSON('/bootstrap-photo-grid/csvData.php', function(csvData) {
+		csvData.reverse();
 		buildHTML(csvData);
 		fadeInGrid(0, csvData);
 	});
