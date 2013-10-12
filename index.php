@@ -11,7 +11,7 @@
     
     <div class="row">
       <div id="about" class="span9">
-        <p>Like Young Records is a small, independent record label that is based in <a href="http://maps.google.com/maps/place?q=New+Albany+IN" target="_blank">New Albany, IN</a> (seriously, <em>that</em> place) and is run by <a href="http://www.facebook.com/jordan.reidinger" target="_blank">Jordan Reidinger</a>. Like Young primarily releases cassettes full of noise / ambient / minimal / indie / pop galore! We are dedicated to spreading good music and helping bands as much as possible. Fuck money. Mind the tape.</p>
+        <p>Like Young Records is a small, independent record label that is based in <a href="http://maps.google.com/maps/place?q=New+Albany+IN" target="_blank">New Albany, IN</a> (seriously, <em>that</em> place) and is run by <a href="http://www.facebook.com/jordan.reidinger" target="_blank">Jordan Reidinger</a>. Like Young primarily releases cassettes full of noise / ambient / minimal / indie / pop galore! We are dedicated to spreading good music and helping bands as much as possible. Fuck money. Mind the <a href="http://en.wikipedia.org/wiki/Compact_Cassette" target="_blank">tape</a>.</p>
         <p class="text-center">Tonight, we will live like young.</p>
       </div> <!-- about -->
     </div> <!-- row -->
