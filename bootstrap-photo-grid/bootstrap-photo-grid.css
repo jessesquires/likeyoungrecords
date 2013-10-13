@@ -14,9 +14,9 @@ img.thumb:hover {
 }
 
 .image-row {
-    margin-top: 20px;
-    margin-bottom: 15px;
-    padding-left: 6px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	padding-left: 6px;
 }
 
 .modal-header {
@@ -32,10 +32,10 @@ img.thumb:hover {
 		width: 200px;
 		height: 200px;
 		float: none; 
-    	margin-left: auto; 
-    	margin-right: auto; 
-    	margin-bottom: 15px;
-    	display: block;
+		margin-left: auto; 
+		margin-right: auto; 
+		margin-bottom: 15px;
+		display: block;
 	}
 
 	img.full {
@@ -61,6 +61,6 @@ img.thumb:hover {
 	.image-row {
 		margin-top: 0px;
 		margin-bottom: 0px;
-        padding-left: 0px;
-    }
+		padding-left: 0px;
+	}
 }

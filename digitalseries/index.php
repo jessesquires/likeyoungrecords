@@ -10,7 +10,7 @@
 		<?php include('../includes/menu.php'); ?>
 		
 		<div class="row">
-			<div id="digitalseries" class="span9">
+			<div id="digitalseries">
 			<h3>Digital Series</h3><br />
 			<ul>
 				<li>LYD007: Daze Ghoulish / <a href="http://likexyoung.bandcamp.com/album/news" target="_blank">News</a></li>

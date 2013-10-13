@@ -1,12 +1,12 @@
 var PATH = "../img/releases/";
 var MAX_COLS = 4;
 
-function render() {
+function renderReleases() {
 	console.log("Reading CSV data...");
 	$.getJSON('/bootstrap-photo-grid/csvData.php', function(csvData) {
 		csvData.reverse();
 		buildHTML(csvData);
-		fadeInGrid(0, csvData);
+		// fadeInGrid(0, csvData);
 	});
 }
 
@@ -38,8 +38,8 @@ function buildHTML(csvRecords) {
 	var rows = csvRecords.length / MAX_COLS;
 	for(var i = 0; i < rows; i++) {
 		div.append('<div class="row image-row">' +
-				   		'<div id="row-' + i + '" class="span9">' +
-				   		'</div> <!-- span -->' +
+				   		'<div id="row-' + i + '" class="col-md-9">' +
+				   		'</div> <!-- col-md-9 -->' +
 				   '</div> <!-- row -->');
 
 		for(var j = 0; j < MAX_COLS; j++) {
@@ -58,9 +58,9 @@ function appendThumbnailHTMLForRecordToDiv(rec, div) {
 	console.log("Adding " + rec.release + "\n" + rec.artist + ", " + rec.album + "(" + rec.thumb + ")");
 	var title = rec.release + ": " + rec.album;
 
-	$(div).append('<div id="' + rec.release + '-span" class="span2 hide">' + 
+	$(div).append('<div id="' + rec.release + '-span" class="col-md-2 ">' + 
 				  	'<a data-toggle="modal" href="#' + rec.release + '">' +
-				  		'<img src="' + PATH + rec.thumb + '" class="img-polaroid thumb" alt="' + title + '" title="' + title + '"/>' + 
+				  		'<img src="' + PATH + rec.thumb + '" class="img-thumbnail thumb" alt="' + title + '" title="' + title + '"/>' + 
 				  	'</a>' +
 				  '</div>');
 }
@@ -79,7 +79,7 @@ function appendModalHTMLForRecordToDiv(rec, div) {
 				  		'</h3>' +
 				  	'</div> <!-- header -->' +
 				  	'<div class="modal-body">' +
-				  		'<img src="' + PATH + rec.full + '" class="img-polaroid full" alt="' + title + '" title="' + title + '"/>' +
+				  		'<img src="' + PATH + rec.full + '" class="img-thumbnail full" alt="' + title + '" title="' + title + '"/>' +
 				  	'</div> <!-- body -->' +
 				  	'<div class="modal-footer">' +
 				  		'<h3 class="text-center">' + 

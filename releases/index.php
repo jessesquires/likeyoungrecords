@@ -5,7 +5,7 @@
     <title>LYR | Releases</title>
     <?php include('../includes/head.php'); ?>
   </head>
-  <body onload="render()">
+  <body onload="renderReleases()">
 
     <?php include('../includes/banner.php'); ?>
     <?php include('../includes/menu.php'); ?>

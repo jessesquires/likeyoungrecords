@@ -10,9 +10,9 @@
     <?php include('includes/menu.php'); ?>
     
     <div class="row">
-      <div id="about" class="span9">
-        <p>Like Young Records is a small, independent record label that is based in <a href="http://maps.google.com/maps/place?q=New+Albany+IN" target="_blank">New Albany, IN</a> (seriously, <em>that</em> place) and is run by <a href="http://www.facebook.com/jordan.reidinger" target="_blank">Jordan Reidinger</a>. Like Young primarily releases cassettes full of noise / ambient / minimal / indie / pop galore! We are dedicated to spreading good music and helping bands as much as possible. Fuck money. Mind the <a href="http://en.wikipedia.org/wiki/Compact_Cassette" target="_blank">tape</a>.</p>
-        <p class="text-center">Tonight, we will live like young.</p>
+      <div id="about">
+        <p>Like Young Records is a small, independent record label that is based in <a href="http://maps.google.com/maps/place?q=New+Albany+IN" target="_blank">New Albany, IN</a> (seriously, <em>that</em> place) and is run by <a href="http://www.facebook.com/jordan.reidinger" target="_blank">Jordan Reidinger</a>. Like Young primarily releases cassettes full of noise / ambient / minimal / indie / pop galore! And, we've even released hardcore and black metal. We are dedicated to spreading good music and helping bands as much as possible. Fuck money. Mind the <a href="http://en.wikipedia.org/wiki/Compact_Cassette" target="_blank">tape</a>.</p>
+        <p class="tagline text-muted text-center">Tonight, we will live like young.</p>
       </div> <!-- about -->
     </div> <!-- row -->
     <hr>
@@ -31,12 +31,13 @@
       }(document, 'script', 'facebook-jssdk'));
 
       $(window).bind("load resize", function() {   
-        var container_width = $('#menu').width() - 50;    
+        var container_width = $('#banner').width() - 50;    
         
         $('#fb-container').html('<div class="fb-like-box" ' + 
         'data-href="https://www.facebook.com/likexyoung"' +
-        ' data-width="' + container_width + '" data-height="500" data-show-faces="false" ' +
-        'data-stream="true" data-border-color="#ffffff" data-header="false"></div>');
+        ' data-width="' + container_width + 
+        '" data-height="500" data-colorscheme="light" data-show-faces="false" ' +
+        'data-stream="true" data-show-border="false" data-header="false"></div>');
         FB.XFBML.parse( );    
     }); 
     </script>
