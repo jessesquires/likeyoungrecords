@@ -38,9 +38,9 @@ function buildHTML(csvRecords) {
 	var rows = csvRecords.length / MAX_COLS;
 	for(var i = 0; i < rows; i++) {
 		div.append('<div class="row image-row">' +
-				   		'<div id="row-' + i + '" class="col-md-9">' +
-				   		'</div> <!-- col-md-9 -->' +
-				   '</div> <!-- row -->');
+						'<div id="row-' + i + '" class="col-md-9">' +
+						'</div> <!-- col-md-9 -->' +
+					'</div> <!-- row -->');
 
 		for(var j = 0; j < MAX_COLS; j++) {
 			var index = j + (i * MAX_COLS);
@@ -59,10 +59,10 @@ function appendThumbnailHTMLForRecordToDiv(rec, div) {
 	var title = rec.release + ": " + rec.album;
 
 	$(div).append('<div id="' + rec.release + '-span" class="col-md-2 ">' + 
-				  	'<a data-toggle="modal" href="#' + rec.release + '">' +
-				  		'<img src="' + PATH + rec.thumb + '" class="img-thumbnail thumb" alt="' + title + '" title="' + title + '"/>' + 
-				  	'</a>' +
-				  '</div>');
+						'<a data-toggle="modal" href="#' + rec.release + '">' +
+							'<img src="' + PATH + rec.thumb + '" class="img-thumbnail thumb" alt="' + title + '" title="' + title + '"/>' + 
+						'</a>' +
+					'</div>');
 }
 
 function appendModalHTMLForRecordToDiv(rec, div) {
@@ -71,20 +71,24 @@ function appendModalHTMLForRecordToDiv(rec, div) {
 	var storeLink = "http://store.likeyoungrecords.com";
 	var title = rec.release + ": " + rec.album;
 
-	$(div).append('<div id="' + rec.release + '" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="' + label + '" aria-hidden="true">' +
-				  	'<div class="modal-header">' +
-				  		'<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>' +
-				  		'<h3 id="' + label + '" class="text-left">' + 
-				  			'<a href="' + rec.url + '" target="_blank">' + rec.artist + '</a> <small>' + rec.album + '</small>' + 
-				  		'</h3>' +
-				  	'</div> <!-- header -->' +
-				  	'<div class="modal-body">' +
-				  		'<img src="' + PATH + rec.full + '" class="img-thumbnail full" alt="' + title + '" title="' + title + '"/>' +
-				  	'</div> <!-- body -->' +
-				  	'<div class="modal-footer">' +
-				  		'<h3 class="text-center">' + 
-				  			'<a href="' + storeLink + '" target="_blank">' + rec.release + '</a> <small>' + rec.details + '</small>' + 
-				  		'</h3>' +
-				  	'</div> <!-- footer -->' +
-				  '</div> <!-- modal -->');
+	$(div).append('<div id="' + rec.release + '" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="' + label + '" aria-hidden="true">' +
+					'<div class="modal-dialog">' + 
+						'<div class="modal-content">' +
+							'<div class="modal-header">' +
+								'<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>' +
+								'<h3 class="modal-title" id="' + label + '" class="text-left">' + 
+									'<a href="' + rec.url + '" target="_blank">' + rec.artist + '</a> <small>' + rec.album + '</small>' + 
+								'</h3>' +
+							'</div> <!-- header -->' +
+							'<div class="modal-body">' +
+								'<img src="' + PATH + rec.full + '" class="img-thumbnail full" alt="' + title + '" title="' + title + '"/>' +
+							'</div> <!-- body -->' +
+							'<div class="modal-footer">' +
+								'<h3 class="text-center">' + 
+									'<a href="' + storeLink + '" target="_blank">' + rec.release + '</a> <small>' + rec.details + '</small>' + 
+								'</h3>' +
+							'</div> <!-- footer -->' +
+						'</div> <!-- modal content -->' +
+					'</div> <!-- modal-dialog -->' +
+				'</div> <!-- modal -->');
 }
