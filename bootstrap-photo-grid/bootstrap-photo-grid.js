@@ -6,7 +6,7 @@ function renderReleases() {
 	$.getJSON('/bootstrap-photo-grid/csvData.php', function(csvData) {
 		csvData.reverse();
 		buildHTML(csvData);
-		// fadeInGrid(0, csvData);
+		fadeInGrid(0, csvData);
 	});
 }
 
@@ -23,7 +23,7 @@ function fadeInGrid(n, csvRecords) {
 		
 		setTimeout(function() {	
 			console.log("FADE " + rec.release);
-			imgSpan.fadeIn('slow', function() {
+			imgSpan.fadeIn(500, function() {
 				fadeInGrid(n+1, csvRecords);
 			});	
 		}, 0);
@@ -56,7 +56,7 @@ function appendThumbnailHTMLForRecordToDiv(rec, div, i) {
 	console.log("Adding " + rec.release + "\n" + rec.artist + ", " + rec.album + "(" + rec.thumb + ")");
 	var title = rec.release + ": " + rec.album;
 
-	$(div).append('<div id="' + rec.release + '-span" class="col-md-3 col-sm-3 col-xs-4">' + 
+	$(div).append('<div id="' + rec.release + '-span" class="col-md-3 col-sm-3 col-xs-4" style="display: none;">' + 
 						'<a data-toggle="modal" href="#' + rec.release + '">' +
 							'<img src="' + PATH + rec.thumb + '" class="img-thumbnail img-responsive" alt="' + title + '" title="' + title + '"/>' + 
 						'</a>' +
