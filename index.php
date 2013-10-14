@@ -31,7 +31,7 @@
       }(document, 'script', 'facebook-jssdk'));
 
       $(window).bind("load resize", function() {   
-        var container_width = $('#banner').width() - 50;    
+        var container_width = $('#banner').width();    
         
         $('#fb-container').html('<div class="fb-like-box" ' + 
         'data-href="https://www.facebook.com/likexyoung"' +
