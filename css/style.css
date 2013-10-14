@@ -43,10 +43,6 @@ body p, h3 {
 	margin-top: 15px;
 }
 
-#banner:hover {
-	border-color: #ff5054;
-}
-
 #menu {
 	margin: 10px 5px 10px 5px;
 }
@@ -55,6 +51,15 @@ body p, h3 {
 	width: 25px;
 	height: auto;
 	margin-top: 10px;
+}
+
+.img-thumbnail:hover {
+	border-color: #ff5054;
+}
+
+.image-row {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .nav-pills > li.active > a,
