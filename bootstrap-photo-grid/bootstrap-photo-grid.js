@@ -82,7 +82,7 @@ function appendModalHTMLForRecordToDiv(rec, div) {
 								'<img src="' + PATH + rec.full + '" class="img-thumbnail img-responsive" alt="' + title + '" title="' + title + '"/>' +
 							'</div> <!-- body -->' +
 							'<div class="modal-footer">' +
-								'<h3 class="text-center">' + 
+								'<h3 class="text-left">' + 
 									'<a href="' + storeLink + '" target="_blank">' + rec.release + '</a> <small>' + rec.details + '</small>' + 
 								'</h3>' +
 							'</div> <!-- footer -->' +

@@ -83,7 +83,7 @@ body p, h3 {
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-	background-color: #4dadf7 !important;
+	background-color: #4dadf7;
 	color: #ffffff;
 	background-image: none;
 }
