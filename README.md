@@ -2,6 +2,8 @@
 
 The website for [Like Young Records](http://www.likeyoungrecords.com) — a small, independent record label in New Albany, IN.
 
+![LYR](https://raw.github.com/jessesquires/likeyoungrecords/master/img/banner-big-cartel.jpg)
+
 ## License
 
 Copyright &copy; 2013 Jesse Squires, Like Young Records
