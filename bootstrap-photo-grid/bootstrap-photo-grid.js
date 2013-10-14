@@ -1,4 +1,9 @@
-var PATH = "../img/releases/";
+var IMG_PATH = "../img/releases/";
+var IMG_BASE = "lyr";
+var IMG_SEP = "-";
+var IMG_EXT = ".jpg";
+var IMG_THUMB = "thumb";
+
 var MAX_COLS = ($(window).width() < 768) ? 3 : 4;
 
 function renderReleases() {
@@ -6,25 +11,24 @@ function renderReleases() {
 	$.getJSON('/bootstrap-photo-grid/csvData.php', function(csvData) {
 		csvData.reverse();
 		buildHTML(csvData);
+
+		console.log("Begin fade in...");
 		fadeInGrid(0, csvData);
 	});
 }
 
 function fadeInGrid(n, csvRecords) {
-	console.log("Begin fade in...");
-
-	if(n >= csvRecords.length) {
+	if(n >= csvRecords.length / MAX_COLS) {
 		console.log("Fade Done! Yay for recursion!");
 		return;
 	}
 	else {
-		var rec = JSON.parse(JSON.stringify(csvRecords[n]));
-		var imgSpan = $('#' + rec.release + '-span');
+		console.log("Fading row : " + n);
+		var imgRowDiv = $('#row-' + n);
 		
 		setTimeout(function() {	
-			console.log("FADE " + rec.release);
-			imgSpan.fadeIn(500, function() {
-				fadeInGrid(n+1, csvRecords);
+			imgRowDiv.fadeIn(500, function() {
+				fadeInGrid(n + 1, csvRecords);
 			});	
 		}, 0);
 	}
@@ -32,12 +36,11 @@ function fadeInGrid(n, csvRecords) {
 
 function buildHTML(csvRecords) {
 	console.log("Building html...\n");
-	console.log("CSV Records = " + JSON.stringify(csvRecords) + "\n");
 	var div = $('#releases');
 
 	var rows = csvRecords.length / MAX_COLS;
 	for(var i = 0; i < rows; i++) {
-		div.append('<div id="row-' + i + '" class="row image-row">' +
+		div.append('<div id="row-' + i + '" class="row image-row" style="display: none;">' +
 					'</div> <!-- image row' + i + ' -->');
 
 		for(var j = 0; j < MAX_COLS; j++) {
@@ -52,19 +55,27 @@ function buildHTML(csvRecords) {
 	}
 }
 
+function imageForRecord(rec, isThumbnail) {
+	var releaseNumber = parseInt(rec.release.substring(2));
+	var thumb = isThumbnail ? (IMG_SEP + IMG_THUMB) : "";
+	return IMG_PATH + IMG_BASE + IMG_SEP + releaseNumber + thumb + IMG_EXT;
+}
+
 function appendThumbnailHTMLForRecordToDiv(rec, div, i) {
-	console.log("Adding " + rec.release + "\n" + rec.artist + ", " + rec.album + "(" + rec.thumb + ")");
+	console.log("Adding thumbnail : " + rec.release);
+
 	var title = rec.release + ": " + rec.album;
 
-	$(div).append('<div id="' + rec.release + '-span" class="col-md-3 col-sm-3 col-xs-4" style="display: none;">' + 
+	$(div).append('<div id="' + rec.release + '-span" class="col-md-3 col-sm-3 col-xs-4">' + 
 						'<a data-toggle="modal" href="#' + rec.release + '">' +
-							'<img src="' + PATH + rec.thumb + '" class="img-thumbnail img-responsive" alt="' + title + '" title="' + title + '"/>' + 
+							'<img src="' + imageForRecord(rec, true) + '" class="img-thumbnail img-responsive" alt="' + title + '" title="' + title + '"/>' + 
 						'</a>' +
 					'</div>');
 }
 
 function appendModalHTMLForRecordToDiv(rec, div) {
-	console.log("Adding modal " + rec.release + "\n" + rec.artist + ", " + rec.album + "(" + rec.full + ")");
+	console.log("Adding modal : " + rec.release);
+
 	var label = rec.release + "-modal";
 	var storeLink = "http://store.likeyoungrecords.com";
 	var title = rec.release + ": " + rec.album;
@@ -79,7 +90,7 @@ function appendModalHTMLForRecordToDiv(rec, div) {
 								'</h3>' +
 							'</div> <!-- header -->' +
 							'<div class="modal-body">' +
-								'<img src="' + PATH + rec.full + '" class="img-thumbnail img-responsive" alt="' + title + '" title="' + title + '"/>' +
+								'<img src="' + imageForRecord(rec, false)  + '" class="img-thumbnail img-responsive" alt="' + title + '" title="' + title + '"/>' +
 							'</div> <!-- body -->' +
 							'<div class="modal-footer">' +
 								'<h3 class="text-left">' + 
