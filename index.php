@@ -15,7 +15,7 @@
         <p class="tagline text-muted text-center">Tonight, we will live like young.</p>
       </div> <!-- about -->
     </div> <!-- row -->
-    <hr>
+    <br />
     <div class="center" id="fb-container"></div>
     
     <?php include('includes/footer.php'); ?>
