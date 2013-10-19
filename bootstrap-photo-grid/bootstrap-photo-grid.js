@@ -10,7 +10,7 @@ function renderReleases() {
 	console.log("Reading CSV data...");
 	$.getJSON('/bootstrap-photo-grid/releases-csv-data.php', function(csvData) {
 		csvData.reverse();
-		buildHTML(csvData);
+		buildHTMLWithReleasesData(csvData);
 
 		console.log("Begin fade in...");
 		fadeInGrid(0, csvData);
@@ -34,7 +34,7 @@ function fadeInGrid(n, csvRecords) {
 	}
 }
 
-function buildHTML(csvRecords) {
+function buildHTMLWithReleasesData(csvRecords) {
 	console.log("Building html...\n");
 	var div = $('#releases');
 

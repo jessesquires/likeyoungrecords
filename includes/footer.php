@@ -23,8 +23,7 @@
 		}
 	</script>
 	<script src="/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="/bootstrap-photo-grid/bootstrap-photo-grid.js" type="text/javascript"></script>
-
+	
 	<script type="text/javascript">
 		// google analytics BEGIN
 		(function() {
