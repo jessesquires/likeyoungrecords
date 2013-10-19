@@ -8,7 +8,7 @@ var MAX_COLS = ($(window).width() < 768) ? 3 : 4;
 
 function renderReleases() {
 	console.log("Reading CSV data...");
-	$.getJSON('/bootstrap-photo-grid/csvData.php', function(csvData) {
+	$.getJSON('/bootstrap-photo-grid/releases-csv-data.php', function(csvData) {
 		csvData.reverse();
 		buildHTML(csvData);
 
