@@ -4,9 +4,9 @@
 					<hr>
 						<small class="text-muted text-center">&copy; 2013 Like Young Records</small>
 						<br />
-						<small class="text-muted text-center">Designed by <a href="http://bit.ly/0x29A" target="_blank">Hexed Bits</a></small>
+						<small class="text-muted text-center">Designed by <a href="http://bit.ly/0x29A" target="_blank" title="Hail 1010011010">Hexed Bits</a></small>
 						<br/>
-						<a href="http://bit.ly/0x29A" target="_blank"><img id="cross" src="/img/cross.png" alt="0x29A" title="Hail 1010011010"/></a>
+						<a href="http://bit.ly/0x29A" target="_blank" title="Hail 1010011010" data-toggle="tooltip"><img id="cross" src="/img/cross.png" alt="0x29A"/></a>
 				</div> <!-- span -->
 			</div> <!-- footer -->
 			
@@ -23,7 +23,14 @@
 		}
 	</script>
 	<script src="/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-	
+	<script type="text/javascript">
+		$('[data-toggle="tooltip"]').tooltip(
+				{
+					'placement' : 'top',
+					'container' : 'body',
+					'delay' : { 'show' : 500 , 'hide' : 250 }
+				});
+	</script>
 	<script type="text/javascript">
 		// google analytics BEGIN
 		(function() {
