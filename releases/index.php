@@ -14,6 +14,6 @@
 		</div> <!-- releases -->
 		
 		<?php include('../includes/footer.php'); ?>
-		<script src="/bootstrap-photo-grid/bootstrap-photo-grid.js" type="text/javascript"></script>
+		<script src="/bootstrap-photo-grid/bootstrap-photo-grid.min.js" type="text/javascript"></script>
 	</body>
 </html>
