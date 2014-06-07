@@ -4,9 +4,11 @@
 		<meta name="keywords" content="like young, record label, records, tapes, vinyl, indie records, independent record label, noise, ambient, minimal, indie, pop">
 		<meta name="description" content="Indie Record Label in New Albany, IN">
 		<meta name="author" content="Like Young Records">
-
-		<!-- styles -->
-		<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+		
+		<!-- bootstrap latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> 
+		
+		<!-- custom styles -->
 		<link href="/css/style.min.css" rel="stylesheet" type="text/css">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -32,6 +34,8 @@
 		<script type="text/javascript">
 			// google analytics BEGIN
 			var _gaq = _gaq || [];
+			var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+			_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
 			_gaq.push(['_setAccount', 'UA-39241369-1']);
 			_gaq.push(['_setDomainName', 'likeyoungrecords.com']);
 			_gaq.push(['_setAllowLinker', true]);

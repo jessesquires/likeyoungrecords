@@ -15,14 +15,17 @@
 </div> <!-- container -->
 
 	<!-- javascript - placed at the end of the document so the pages load faster -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript">
-		if(!window.jQuery) {
+		if (!window.jQuery) {
 			console.log("jQuery Google CDN down. Reverting to local copy...");
-			document.write('<script src="/js/jquery-1.11.0.min.js"><\/script>');
+			document.write('<script src="/js/jquery-1.11.1.min.js"><\/script>');
 		}
 	</script>
-	<script src="/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+	<!-- bootstrap latest compiled and minified JavaScript -->
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
 	<script type="text/javascript">
 		$('[data-toggle="tooltip"]').tooltip(
 				{
