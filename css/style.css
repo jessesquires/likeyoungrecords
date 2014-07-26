@@ -1,17 +1,59 @@
-/* LYR BLUE : #4dadf7 */
-/* LYR RED : #ff5054 */
+/* LYR RED : #f05356 */
 
 body {
-	background-color: #ffffff;
+	background-color: #0f0f0f;
 }
 
 body p, h3 {
+	color: #d9d9d9;
 	text-align: left;
 	margin: 5px 25px 10px 25px;
 }
 
+hr {
+	width: 90%;
+	border-color: #262626;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 22px;
+	margin-bottom: 0px;
+}
+
+h1 {
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #ffffff;
+	letter-spacing: 1px;
+	margin-top: 0px;
+	padding-bottom: 8px;
+}
+
+a {
+	color: #f05356;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+a:visited {
+	text-decoration:none;
+}
+
+p > a:hover,
+p > a:active,
+h3 > a:hover,
+h3 > a:active {
+	color: #a63a3c;
+	text-decoration:underline;
+}
+
 #footer {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 #about {
@@ -37,6 +79,7 @@ body p, h3 {
 
 #banner {
 	margin-top: 15px;
+	width: 100%;
 }
 
 #menu {
@@ -50,7 +93,7 @@ body p, h3 {
 }
 
 .img-thumbnail:hover {
-	border-color: #ff5054;
+	border-color: #f05356;
 }
 
 .image-row {
@@ -61,73 +104,40 @@ body p, h3 {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-	background-color: #4dadf7;
+	background-color: #f05356;
 	color: #ffffff;
 }
 
-.nav-tabs > li, .nav-pills > li {
+.nav-pills > li > a:focus {
+	color: #f05356;
+}
+
+.nav-tabs > li, 
+.nav-pills > li {
 	font-size: 16px;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	font-weight: lighter;
+	letter-spacing: 2px;
 }
 
-.dropdown-menu > li, .dropdown-menu li > a {
+.dropdown-menu > li, 
+.dropdown-menu li > a {
 	font-size: 16px;
 	text-align: left;
+	font-weight: lighter;
 	background-color: #ffffff;
-	color: #4dadf7;
+	color: #f05356;
 }
 
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-	background-color: #4dadf7;
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus {
+	background-color: #f05356;
 	color: #ffffff;
 	background-image: none;
 }
 
-h3 {
-	font-size: 18px;
-	font-weight: bold;
-	line-height: 22px;
-	margin-bottom: 0px;
-}
-
-a {
-	color: #4dadf7;
-}
-
-a:link {
-	text-decoration:none;
-}
-
-a:visited {
-	text-decoration:none;
-}
-
-a:hover {
-	text-decoration:underline;
-	color: #3b86bf;
-}
-
-a:active {
-	text-decoration:underline;
-}
-
 #footer a, a:hover {
 	color: #666666;
-}
-
-#about a, 
-#contact a, 
-#releases a,
-#digitalseries a {
-	color: #ff5054;
-}
-
-#about a:hover, 
-#contact a:hover, 
-#releases a:hover,
-#digitalseries a:hover {
-	color: #bf3b3d;
 }
 
 #contact p {
@@ -137,4 +147,5 @@ a:active {
 #digitalseries li {
 	text-align: left;
 	margin-bottom: 10px;
+	color: #d9d9d9;
 }

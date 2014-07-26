@@ -6,7 +6,7 @@
 		<meta name="author" content="Like Young Records">
 		
 		<!-- bootstrap latest compiled and minified CSS -->
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> 
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> 
 		
 		<!-- custom styles -->
 		<link href="/css/style.min.css" rel="stylesheet" type="text/css">
@@ -17,12 +17,6 @@
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" type="text/javascript"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" type="text/javascript"></script>
 		<![endif]-->
-
-		<!-- touch icons iOS 6 -->
-		<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/ico/icon57.png">
-		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/ico/icon72.png">
-		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/ico/icon114.png">
-		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/ico/icon144.png">
 
 		<!-- touch icons iOS 7 -->
 		<link rel="apple-touch-icon" sizes="76x76" href="/ico/icon76.png">

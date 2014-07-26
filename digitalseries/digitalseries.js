@@ -13,7 +13,7 @@ function buildHTMLWithDigitalSeriesData(csvRecords) {
 	for(var i = 0; i < csvRecords.length; i++) {
 		var rec = JSON.parse(JSON.stringify(csvRecords[i]));
 
-		ul.append('<li>' + rec.release + ": " + rec.artist + " / " +
+		ul.append('<li>' + rec.release + " - " + rec.artist + ": " +
 					'<a href="' + rec.url + '" target="_blank">' +
 					rec.album + '</a></li>');
 	}
