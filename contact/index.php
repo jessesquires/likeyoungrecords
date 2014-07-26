@@ -17,6 +17,8 @@
 				<p><a href="http://facebook.com/likexyoung" target="_blank">likexyoung</a></p><br />
 				<h3>Twitter</h3>
 				<p><a href="http://twitter.com/likexyoung" target="_blank">likexyoung</a></p><br />
+				<h3>Bandcamp</h3>
+				<p><a href="http://likexyoung.bandcamp.com" target="_blank">likexyoung</a></p><br />
 				<h3>Tumblr</h3>
 				<p><a href="http://likeyoungrecords.tumblr.com" target="_blank">likeyoungrecords</a></p><br />
 				<h3>Last.fm</h3>
