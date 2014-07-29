@@ -6,6 +6,7 @@
 				<ul class="dropdown-menu">
 					<li><a href="/releases/">Releases</a></li>
 					<li><a href="/digitalseries/">Digital Series</a></li>
+					<li><a href="/samplers/">Samplers</a></li>
 				</ul>
 			</li>
 			<li <?php if ($thisPage == "contact") echo "class=\"active\""; ?> ><a href="/contact/">Contact</a></li>
