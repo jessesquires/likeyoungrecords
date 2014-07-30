@@ -47,7 +47,9 @@ a:visited {
 p > a:hover,
 p > a:active,
 h3 > a:hover,
-h3 > a:active {
+h3 > a:active,
+li > a:hover,
+li > a:active {
 	color: #a63a3c;
 	text-decoration:underline;
 }
