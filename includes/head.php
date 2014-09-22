@@ -5,9 +5,9 @@
 		<meta name="description" content="Indie Record Label in New Albany, IN">
 		<meta name="author" content="Like Young Records">
 		
-		<!-- bootstrap latest compiled and minified CSS -->
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> 
-		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
 		<!-- custom styles -->
 		<link href="/css/style.min.css" rel="stylesheet" type="text/css">
 
