@@ -5,11 +5,8 @@
 		<meta name="description" content="Indie Record Label in New Albany, IN">
 		<meta name="author" content="Like Young Records">
 		
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-		<!-- custom styles -->
-		<link href="/css/style.min.css" rel="stylesheet" type="text/css">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" >
+		<link href="/css/style.min.css" rel="stylesheet">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
