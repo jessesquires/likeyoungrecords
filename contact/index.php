@@ -23,9 +23,11 @@
 				<p><a href="http://likeyoungrecords.tumblr.com" target="_blank">likeyoungrecords</a></p><br />
 				<h3>Last.fm</h3>
 				<p><a href="http://www.last.fm/user/LYRecords" target="_blank">LYRecords</a></p><br />
+            <h3>Discogs</h3>
+            <p><a href="http://www.discogs.com/label/441002-Like-Young-Records" target="_blank">Like Young Records</a></p><br />
 			</div> <!-- contact -->
 		</div> <!-- row -->
-		
+
 		<?php include('../includes/footer.php'); ?>
 	</body>
 </html>

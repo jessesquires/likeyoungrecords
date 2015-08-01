@@ -2,14 +2,14 @@
 			<div id="footer" class="row center">
 				<div class="center">
 					<hr>
-						<small class="text-muted text-center">&copy; 2014 Like Young Records</small>
+						<small class="text-muted text-center">&copy; 2011-<?php echo date("Y") ?> Like Young Records</small>
 						<br />
 						<small class="text-muted text-center">Designed by <a href="http://bit.ly/0x29A" target="_blank" title="Hail 1010011010">Hexed Bits</a></small>
 						<br/>
 						<a href="http://bit.ly/0x29A" target="_blank" title="Hail 1010011010" data-toggle="tooltip"><img id="cross" src="/img/cross.png" alt="0x29A"/></a>
 				</div> <!-- span -->
 			</div> <!-- footer -->
-			
+
 		</div> <!-- span -->
 	</div> <!-- row -->
 </div> <!-- container -->
