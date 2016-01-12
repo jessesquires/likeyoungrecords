@@ -1,4 +1,4 @@
-## likeyoungrecords
+# likeyoungrecords
 
 [likeyoungrecords.com](http://www.likeyoungrecords.com) — a small, independent record label in New Albany, IN.
 
