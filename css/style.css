@@ -58,6 +58,14 @@ li > a:active {
 	margin-bottom: 15px;
 }
 
+#goodbye {
+	line-height: 25px;
+}
+
+#goodbye p {
+	color: #666;
+}
+
 #about {
 	line-height: 25px;
 }
@@ -71,10 +79,10 @@ li > a:active {
 	text-transform: uppercase;
 }
 
-.center { 
-	float: none; 
-	margin-left: auto; 
-	margin-right: auto; 
+.center {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
 	display: block;
 	text-align: center;
 }
@@ -114,7 +122,7 @@ li > a:active {
 	color: #f05356;
 }
 
-.nav-tabs > li, 
+.nav-tabs > li,
 .nav-pills > li {
 	font-size: 16px;
 	text-transform: uppercase;
@@ -122,7 +130,7 @@ li > a:active {
 	letter-spacing: 2px;
 }
 
-.dropdown-menu > li, 
+.dropdown-menu > li,
 .dropdown-menu li > a {
 	font-size: 16px;
 	text-align: left;
@@ -131,7 +139,7 @@ li > a:active {
 	color: #f05356;
 }
 
-.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
 	background-color: #f05356;
 	color: #ffffff;

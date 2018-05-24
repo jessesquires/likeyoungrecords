@@ -10,7 +10,7 @@
 	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
 	crossorigin="anonymous">
 
-	<link href="/css/style.min.css" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,15 +25,3 @@
 	<link rel="apple-touch-icon" sizes="152x152" href="/ico/icon152.png">
 
 	<link rel="shortcut icon" href="/favicon.ico">
-
-	<script type="text/javascript">
-		// google analytics BEGIN
-		var _gaq = _gaq || [];
-		var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-		_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-		_gaq.push(['_setAccount', 'UA-39241369-1']);
-		_gaq.push(['_setDomainName', 'likeyoungrecords.com']);
-		_gaq.push(['_setAllowLinker', true]);
-		_gaq.push(['_trackPageview']);
-		// google analytics END
-	</script>

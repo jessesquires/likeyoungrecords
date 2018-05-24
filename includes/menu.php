@@ -1,6 +1,7 @@
 
 		<ul class="nav nav-pills nav-justified">
 			<li <?php if ($thisPage == "news") echo "class=\"active\""; ?> ><a href="/">News</a></li>
+			<li <?php if ($thisPage == "about") echo "class=\"active\""; ?> ><a href="/about/">About</a></li>
 			<li class="dropdown <?php if ($thisPage == "releases") echo "active"; ?>">
 				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Releases <span class="glyphicon glyphicon-chevron-down"></span></a>
 				<ul class="dropdown-menu">
