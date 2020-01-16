@@ -11,7 +11,7 @@
 				</ul>
 			</li>
 			<li <?php if ($thisPage == "contact") echo "class=\"active\""; ?> ><a href="/contact/">Contact</a></li>
-			<li><a href="http://store.likeyoungrecords.com">Store <span class="glyphicon glyphicon-circle-arrow-right"></span></a></li>
+			<li><a href="https://likeyoungrecords.bandcamp.com/merch">Store <span class="glyphicon glyphicon-circle-arrow-right"></span></a></li>
 		</ul> <!-- pills -->
 		</div> <!-- menu -->
 	</div> <!-- row -->
